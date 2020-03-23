@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Autor_Epoka_FK" directorySegmentName="seg_0" id="A596C483-04D2-3E76-2611-D885A324B860">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:47:08 UTC</createdTime>
+<generatorID>42591C97-62A9-6090-9032-47BF15E783F6</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<sourcePk>508ED2FD-2FDC-A1BA-7116-6A460C7747C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34FB6B4D-38E7-65BC-A780-DD089D49A57F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AFFD6B78-4A07-B980-1256-034331422A4F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

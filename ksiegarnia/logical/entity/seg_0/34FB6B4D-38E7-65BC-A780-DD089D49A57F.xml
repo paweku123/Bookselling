@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34FB6B4D-38E7-65BC-A780-DD089D49A57F" name="Epoka">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 18:21:54 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Epoka" id="5493179B-A16A-5483-CC82-DD08F4E5C0A9">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 18:22:01 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa Epoki" id="29558BA7-B8C3-A207-09FD-0962327D380C">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 18:22:01 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok Rozpoczecia Epoki" id="16526327-8724-5E17-D6A6-844B05766F2E">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 18:22:02 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok Zakonczenia Epoki" id="B9D69F54-FA09-2DAC-9E6E-595765D3A943">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 18:22:03 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="508ED2FD-2FDC-A1BA-7116-6A460C7747C5" name="Epoka PK">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 18:22:14 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5493179B-A16A-5483-CC82-DD08F4E5C0A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

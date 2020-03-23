@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE719B5B-21CB-FAF7-DE4E-7F05D970FD50" name="Klient">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>D83BB992-BE02-DD53-C1D5-0B10C4B799AD</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Osoba" id="DF7B02D9-FBC7-59DF-9331-0E56B9AC7D36">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>27D5E411-449A-D453-5A56-76E08E9CF487</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74DD6586-1820-434A-ED5E-4057DE3D4F2E" referredColumn="A03AF29A-5ECE-0949-D831-DBF4BFD6E263"/>
+</associations>
+</Column>
+<Column name="Ulica" id="F6FE5C6E-C718-9DEE-ED43-D01684BCB373">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>B395A7EF-A350-0B2B-ECE7-EECE3E8D413A</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejscowosc" id="5989CC29-C5D3-5BF1-A8B6-CA23A0796818">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>9D929576-F527-D66D-295C-A82B6AA2BF5C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_Pocztowy" id="F69E93B1-DFE3-4083-ED41-757FA3BAD4E7">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>D462EF5B-30F8-41D4-7D83-0FAED1C04E61</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBC1B18E-C0F7-B4AE-D3A0-92EEAF9E9457" name="Klient_PK">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>12C19B8B-2B68-9FA5-C67D-FA7E746BCB2C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF7B02D9-FBC7-59DF-9331-0E56B9AC7D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B8A6EF1-BDF1-02C4-6EE8-2945E7CB26BF" name="Klient_Osoba_FK">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>349CB572-F4E6-0CCF-F139-B53D65981E4B</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF7B02D9-FBC7-59DF-9331-0E56B9AC7D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

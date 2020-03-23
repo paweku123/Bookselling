@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="725ABA52-FCF2-6DF8-9C19-874993DE0F4A" name="Firma">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>77700D9E-E299-21A8-AD71-0929465BDEC1</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Firmy" id="FFA58E26-AA08-05A7-4B3A-D43B04B31FD1">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>077CFF32-212A-901B-F773-15F5F0B38A86</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_Firmy" id="5C78C476-8892-23C8-197D-6EC0C1DF7DB5">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>E100FC9B-0378-D23D-34F2-81C84178C75E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejsce_Siedziby" id="2D16DCAB-B186-7880-76B5-63F953864009">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>BA8BF413-F6C6-D7E0-F037-16FF2C9E89ED</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_Zalozenia_Firmy" id="2E946847-E503-17E3-2F95-5118999E0C86">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>0A52923D-640E-CB44-827F-F1EE307E237C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16427C56-7E80-5823-B9AA-912CC6F662A8" name="Firma_PK">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>0E15303B-EFB9-5205-5E02-1441359ADB18</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA58E26-AA08-05A7-4B3A-D43B04B31FD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

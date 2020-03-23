@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dostawca_Firma_FK" directorySegmentName="seg_0" id="F70A0F81-4142-D574-2BAD-312D75B15B0F">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:47:08 UTC</createdTime>
+<generatorID>6D873307-ED72-9137-DF87-F1E793CB5004</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<sourcePk>0E15303B-EFB9-5205-5E02-1441359ADB18</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77700D9E-E299-21A8-AD71-0929465BDEC1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C93A31C5-C511-2427-9371-312A19B97A45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

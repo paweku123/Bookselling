@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ksiazki_Wydawnictwo_FK" directorySegmentName="seg_0" id="9987F861-9C23-13E3-13CD-928561E84654">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:47:08 UTC</createdTime>
+<generatorID>30D084F3-B640-DF53-D53A-DB218A1EC9D9</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<sourcePk>D31C7B7B-0EBF-CE56-0646-3163BCF320A7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97635F97-8BBF-BFA9-FEC8-D23C0F4DB543</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5EFF2042-38E6-35C9-9577-2AF53BA9580E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

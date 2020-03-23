@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zamówienie_Platnosc_FK" directorySegmentName="seg_0" id="3F71B8A9-D082-90A7-1F10-9F682D7F412F">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:47:08 UTC</createdTime>
+<generatorID>96879606-AF3D-C0EF-ECD0-20BF5F00F2DD</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="59146450-6801-F7A9-2DC1-5570FB4B21A4" value="true"/>
+</engineerTo>
+<sourcePk>1FFA714A-64E2-2C80-AB8E-92563ED231EC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74A63897-3C86-C796-A93A-1FB49F4A6FF4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BF2D615-6D5E-D706-8CB8-A8B318799656</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

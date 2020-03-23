@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07261508-E0F5-0E78-D5B7-34402882C984" name="Epoka">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>34FB6B4D-38E7-65BC-A780-DD089D49A57F</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Epoka" id="8BB95D99-33FE-101C-EDE6-B9DAA0AF16D8">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>5493179B-A16A-5483-CC82-DD08F4E5C0A9</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_Epoki" id="E8535146-295F-CF5B-0C94-5AC903252504">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>29558BA7-B8C3-A207-09FD-0962327D380C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_Rozpoczecia_Epoki" id="079F1311-D387-369A-25BC-01C42E03D12C">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>16526327-8724-5E17-D6A6-844B05766F2E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_Zakonczenia_Epoki" id="C029AC9E-A6B1-A826-11A2-80FAE9D76AE4">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>B9D69F54-FA09-2DAC-9E6E-595765D3A943</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C9B883C-40A1-12F7-5451-3F68D98DC962" name="Epoka_PK">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>508ED2FD-2FDC-A1BA-7116-6A460C7747C5</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB95D99-33FE-101C-EDE6-B9DAA0AF16D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

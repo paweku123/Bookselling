@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F558BF3B-7051-0B25-E26D-28920983E079" name="Platnosc">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>74A63897-3C86-C796-A93A-1FB49F4A6FF4</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Platnosci" id="D4AC6555-0084-DD7F-29CA-7BFCD8AC413E">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>7F5FA7D4-E7BE-2D66-86CC-B883CF5BC5DD</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Zaplaty" id="E90B0670-5258-77EA-12F7-001E04A6D780">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>0025EE58-5847-CF0E-1DB1-486542763427</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_Platnosci" id="126AC409-0EE7-8215-9AC3-6550E738B3A9">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>194498B7-4248-64D4-2D27-F91D143444D7</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67AFC3E9-CD61-AE06-3DFE-63D8F918B0E0" name="Platnosc_PK">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 19:34:41 UTC</createdTime>
+<generatorID>1FFA714A-64E2-2C80-AB8E-92563ED231EC</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4AC6555-0084-DD7F-29CA-7BFCD8AC413E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

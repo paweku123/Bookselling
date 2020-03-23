@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0A0EDA5-F9C6-8A6B-6DCD-657333E34D1D" name="Osoba">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>927C23BA-494B-A09F-A1E5-8045B23FF9C5</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Osoba" id="A03AF29A-5ECE-0949-D831-DBF4BFD6E263">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>27D5E411-449A-D453-5A56-76E08E9CF487</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="41C0FFD6-E79C-1E4F-F7B8-6D1DC5F3DBFE">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>7DD66E83-51FD-04F9-59AA-FF74D819C99A</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="F030EF1E-B166-5CB4-A84A-5B88029F8438">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>2F480E96-22FE-A4B2-83AE-BF1FE5482EA2</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plec" id="A6F65641-A2B2-02CC-045E-2806C95A3F02">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>1F5205DC-B1D6-B3D6-C174-D9A7498885F8</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Urodzenia" id="F1D75DDD-BEE2-BF7B-50EA-8FDA5FC0FFD3">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>8AB0ECCA-45CC-F6CA-3B0C-729420F20A1D</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="3DD4479B-4EFD-45F3-E065-B50EAF2FBC61">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:35:55 UTC</createdTime>
+<generatorID>DC09B145-1F5A-BA1D-BF81-B468F8B7F200</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6897E1B6-A1F6-09BC-CAF4-9B21FD7FD505" name="Osoba_PK">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:18:27 UTC</createdTime>
+<generatorID>12C19B8B-2B68-9FA5-C67D-FA7E746BCB2C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A03AF29A-5ECE-0949-D831-DBF4BFD6E263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1302B1F0-22C3-EDA0-B41C-6A86AFE92E64" name="Osoba_PESEL_UN">
+<createdBy>Rysiek</createdBy>
+<createdTime>2020-02-15 20:53:17 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD4479B-4EFD-45F3-E065-B50EAF2FBC61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
